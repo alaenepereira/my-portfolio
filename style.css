@@ -8,14 +8,18 @@ body{
   background: linear-gradient(#004aad, #cb6ce6);
   height: 100vh;
 }
+
 .interface{
   margin: 0 auto;
   
 }
 
+.flex{
+  display: flex;
+}
+
 header  .interface{
   display: flex;
-  
   justify-content: space-between;
 }
 header a{
@@ -36,7 +40,7 @@ header .desktop ul li{
   padding: 40px;
 
 }
-header .btn-contact button{
+ .btn-contact button{
   margin: 40px;
   padding: 10px 40px;
   font-size: 18px;
@@ -45,7 +49,43 @@ header .btn-contact button{
   background-color: #00ff40;
   border-radius: 30px;
   cursor: pointer;
+  
 }
-header .btn-contact button:hover{
-box-shadow: 0 0 8px;
+.btn-contact button:hover{
+box-shadow: 0 0 8px #00bb35;
+transform: scale(1.05);
+  transition: .2s;
+}
+section .top_of_page{
+  padding: 40px 4%;
+}
+
+.top_of_page .txt-top-page{
+ padding: 40px;
+ margin-right: 100px;
+ color: #fff;
+ font-size: 30px;
+ 
+}
+.top_of_page .txt-top-page p{
+  margin: 40px 0;
+}
+
+section .top_of_page .flex{
+  align-items: center;
+  justify-content: center;
+ 
+}
+section .img-top-page{
+ border-radius: 40%;
+animation: float 3s infinite ease-in-out infinite alternate; 
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -20px); 
+  }
 }
