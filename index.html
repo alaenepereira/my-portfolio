@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
@@ -22,7 +26,7 @@
       <nav class="desktop">
         <ul>
           <li><a href="#Introdução">Introdução</a></li>
-          <li><a href="#Sobre mim">Sobre mim</a></li>
+          <li><a href="#Sobre-mim">Sobre mim</a></li>
           <li><a href="#Especialidades">Especialidades</a></li>
           <li><a href="#Aprendizado">Aprendizado</a></li>
           <li><a href="#Projetos">Projetos</a></li>
@@ -38,7 +42,7 @@
   </header>
   <body>
     <main>
-      <section class="top_of_page">
+      <section id="Introdução" class="top_of_page">
         <div class="flex">
           <div class="txt-top-page">
             <h1>
@@ -72,19 +76,17 @@
 
       <section>
         <a
-          href="https://wa.me/8899754625"
+          href="https://wa.me/5599999999999"
           class="whatsapp-float"
           target="_blank"
           rel="noopener noreferrer"
+          title="Fale comigo no WhatsApp"
         >
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
-            alt="Ícone do WhatsApp"
-          />
+          <i class="fab fa-whatsapp"></i>
         </a>
       </section>
 
-      <section class="about-me">
+      <section id="Sobre-mim" class="about-me">
         <h2>Sobre mim</h2>
 
         <div class="about-container">
@@ -105,22 +107,66 @@
               como desenvolvedora e a construir soluções que realmente façam a
               diferença.
             </p>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="specialties">
+      <section id="Especialidades" class="specialties">
         <h2><span>Minhas especialidades</span></h2>
-        <div align="center">
-          <img
-            align="center"
-            width="250px"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=alaenepereira&theme=tokyonight&layout=pie"
-            alt="Estatísticas de linguagens mais usadas no meu GitHub "
-          />
+
+        <div class="specialty-container">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="num">
+                <h2>91.3<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">JavaScript</h2>
+          </div>
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="num">
+                <h2>30<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">HTML</h2>
+          </div>
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="num">
+                <h2>30<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">CSS</h2>
+          </div>
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="num">
+                <h2>40<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">Dart</h2>
+          </div>
         </div>
       </section>
-      <section class="project">
+      <section id="projetos" class="project">
         <h2>Meus projetos</h2>
         <div class="box-projects"></div>
       </section>
