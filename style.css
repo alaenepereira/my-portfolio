@@ -19,6 +19,7 @@ body{
 
 .flex{
   display: flex;
+  
 }
 
 header  .interface{
@@ -72,6 +73,7 @@ section .top_of_page{
 }
 .top_of_page .txt-top-page p{
   margin: 40px 0;
+  margin-bottom: 200px;
 }
 
 section .top_of_page .flex{
@@ -111,11 +113,34 @@ section .img-top-page{
   flex-wrap: wrap; /* ajuda em telas pequenas */
   margin-top: 20px;
   padding: 40px;
+
  
+}
+.btn-social{
+  margin-left: 300px;
+  margin-bottom: 200px;
+  
+}
+.btn-social button{
+  height: 60px;
+  width: 60px;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  background-color: #00ff40;
+  cursor: pointer;
+  margin: 0 10px;
+  
+}
+.btn-social button:hover{
+  transform: scale(1.1);
+  transition: 2s;
 }
 .about-me h2{
   text-align: center;
   font-size: 35px;
+
   
 }
 
@@ -232,9 +257,86 @@ section .img-top-page{
 .project h2{
   text-align: center;
   font-size: 38px;
+  margin-bottom: 100px;
 }
-
-
+.project {
+  padding: 80px 4%;
+  box-shadow: 0 0 40px #bd1eee;
+}
+section .project .flex{
+  justify-content: space-around;
+}
+ .img-import{
+  background-image: url(images/gifs.png);
+  width: 360px;
+  height: 460px;
+  margin: 0 100px;
+  padding: 20px;
+  background-color: #00bb35;
+  background-size: cover;
+  background-position: 100% 0%;
+  transition: 5s;
+  cursor: pointer;
+  border-radius: 40px;
+  position: relative;
+}
+.img-import:hover{
+   background-position: 100% 100%;
+}
+.img-converter{
+  background-image: url(images/convert.png);
+   width: 360px;
+  height: 460px;
+  margin: 0 100px;
+  padding: 20px;
+  background-color: #00bb35;
+  background-size: cover;
+  background-position: 100% 0%;
+  transition: 5s;
+  cursor: pointer;
+  border-radius: 40px;
+  position: relative;
+}
+.img-converter:hover{
+  background-position: 100% 100%;
+}
+.img-crud{
+  background-image: url(images/crud.png);
+   width: 360px;
+  height: 460px;
+  margin: 0 100px;
+  padding: 20px;
+  background-color: #00bb35;
+  background-size: cover;
+  background-position: 10% 0%;
+  transition: 5s;
+  cursor: pointer;
+  border-radius: 40px; 
+  position: relative;
+}
+.img-crud:hover{
+    background-position: 100% 100%;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #000000b8;
+  color: #fff;
+  opacity: 0;
+  transition: .5s;
+}
+.overlay:hover{
+opacity: 1;
+}
 
 
 
