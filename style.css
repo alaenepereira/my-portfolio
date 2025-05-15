@@ -338,6 +338,45 @@ section .project .flex{
 opacity: 1;
 }
 
+.comment-form {
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+}
+.comment-form h2 {
+  font-size: 38px;
+}
+
+.comment-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.pessoa {
+  width: 200px;
+  padding-top: 20px;
+}
+
+.pessoa img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: none;
+}
+
+.nome {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.comentario {
+  font-style: italic;
+  size: 16px;
+  margin-top: 5px;
+}
 
 
 
