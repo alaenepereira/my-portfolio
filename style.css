@@ -379,6 +379,27 @@ opacity: 1;
   color: #555;
 }
 
+.container-footer{  
+  text-align: center;
+}
 
+.row-footer{  
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.social-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 10px;
+  font-size: 30px;
+  transition: .2s;
+  cursor: pointer;
+  margin-top: 2%;  
+  margin-bottom: 1%;
+}
 
 
