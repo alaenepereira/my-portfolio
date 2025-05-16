@@ -226,27 +226,24 @@
       </section>
 
       <section class="comment-form">
-        <h2>Comentários</h2>
 
         <div class="comment-container">
+          <div class="comentarios">
 
-          <div class="pessoa">
-            <img src="imagens-comentarios/pessoa 1.jpg" alt="Foto de uma pessoa">
-            <div class="nome">Ana Paula</div>
-            <div class="comentario">"Trabalho de alta qualidade!"</div>
-          </div>
-    
-          <div class="pessoa">
-            <img src="imagens-comentarios/pessoa 2.jpg" alt="Foto de uma pessoa">
-            <div class="nome">João Pedro</div>
-            <div class="comentario">"Apresentação clara dos projetos."</div>
-          </div>
-    
-          <div class="pessoa">
-            <img src="imagens-comentarios/pessoa 3.jpg" alt="Foto de uma pessoa">
-            <div class="nome">Maria Costa</div>
-            <div class="comentario">"Design limpo e profissional."</div>
-          </div>
+            <h2>Deixe seu comentário</h2>
+
+            <form action="" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="comentario">Comentário:</label>
+                <textarea id="comentario" name="comentario" rows="5" required></textarea>
+        
+                <button type="submit">Enviar</button>
+            </form>
         </div>
       </section>
 

@@ -338,44 +338,36 @@ section .project .flex{
 opacity: 1;
 }
 
-.comment-form {
-  text-align: center;
-  margin: 0;
-  padding: 40px;
+.comentarios {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
 }
-.comment-form h2 {
-  font-size: 38px;
+.comentarios h2 {
+  margin-bottom: 15px;
 }
-
-.comment-container {
-  display: flex;
-  justify-content: center;
-  gap: 80px;
-  flex-wrap: wrap;
-}
-
-.pessoa {
-  width: 200px;
-  padding-top: 20px;
-}
-
-.pessoa img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: none;
-}
-
-.nome {
-  font-weight: bold;
+.comentarios label {
+  display: block;
   margin-top: 10px;
 }
-
-.comentario {
-  font-style: italic;
-  size: 16px;
+.comentarios input, .comentarios textarea {
+  width: 100%;
+  padding: 8px;
   margin-top: 5px;
+}
+.comentarios button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #01ee3c;
+  color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 100%;
+}
+.comentarios button:hover {
+  background-color: #00af2c;
 }
 
 
