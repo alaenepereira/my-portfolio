@@ -314,6 +314,45 @@ section .img-top-page{
   
 }
 
+.user_comments {
+ padding: 80px;
+  max-width: 500px;
+  margin: 0 ;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 10px;
+}
+.user_comments h2 {
+   text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #ffffffd3;
+}
+.user_comments label {
+  display: block;
+  margin-top: 10px;
+}
+.user_comments input, .user_comments textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+
+}
+.user_comments button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #01ee3c;
+  color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 100%;
+}
+.user_comments button:hover {
+  background-color: #00af2c;
+}
+
 
 .text {
   margin-top: 10px;

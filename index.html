@@ -221,6 +221,27 @@
         </div>
       </section>
 
+        <section id="comment" class="comment-form">
+        <div class="comment-container">
+          <div class="user_comments">
+
+            <h2>Deixe seu comentário</h2>
+
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" placeholder="Seu nome"required>
+        
+                <label for="email">E-mail:</label>
+                <input type="email" placeholder="Seu Email" required>
+        
+                <label for="label_comment">Comentário:</label>
+                <textarea id="label_comment"  placeholder="Escreva seu comentário ou dúvida" rows="5" required></textarea>
+        
+                <button type="submit">Enviar comentário</button>
+            </form>
+        </div>
+      </section>
+
       <h2 class="brief-title">O que dizem sobre nós</h2>
       <section id="brief" class="brief">
         <div class="card">
@@ -273,7 +294,7 @@
         <div class="gallery-container">
           <img src="images/convert.png" alt="Imagem 1" />
           <img src="images/cep.png" alt="Imagem 2" />
-          <img src="images/cep1.png" alt="Imagem 3" />
+          <img src="images/exercicios.png" alt="Imagem 3" />
         </div>
 
         <div class="gallery-container">
@@ -322,16 +343,16 @@
       <section id="input" class="forms">
         <h2><span>Entre em contato.</span></h2>
         <form>
-          <label for="nome" class="sr-only">Nome completo</label>
+          <label for="name" class="sr-only">Nome completo</label>
           <input type="text" placeholder="Nome completo:" required />
 
           <label for="email" class="sr-only">E-mail</label>
           <input type="email" placeholder="E-mail:" required />
 
-          <label for="telefone" class="sr-only">Telefone</label>
+          <label for="telephone" class="sr-only">Telefone</label>
           <input type="tel" placeholder="Telefone:" />
 
-          <label for="mensagem" class="sr-only">Mensagem</label>
+          <label for="message" class="sr-only">Mensagem</label>
           <textarea placeholder="Digite sua mensagem:" required></textarea>
           <input id="btn-send" type="submit" value="Enviar" />
         </form>
